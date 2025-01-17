@@ -8,6 +8,6 @@ def backup_file(source, destination):
     backup_file_name = os.path.join(destination, f"backup_{today}.tar.gz")
     shutil.make_archive(backup_file_name,'gztar',source)
 
-source = "/Users/abhi/OneDrive/Desktop/python practise/copy.py/"
-destination = "/Users/abhi/OneDrive/Desktop/python practise/backups1"
+source = "source path"
+destination = "Destination path"
 backup_file(source, destination)
